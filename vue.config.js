@@ -1,3 +1,5 @@
-export default {
-    base: '/weather_app/'
-}
+module.exports = {
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/weather_app/'
+      : '/'
+  }
