@@ -5,7 +5,7 @@
         </div>
 
         <div class="weather__info-title">
-          {{weatherData.current.temp_c.toFixed()}}° <i class="uil" :class="classIcon"></i>
+          {{weatherData.current.temp_c.toFixed()}}°C <i class="uil" :class="classIcon"></i>
         </div>
 
         <div class="weather__info-time">
@@ -60,7 +60,7 @@ export default {
     font-size: 100px;
 
     i {
-      font-size: 50px;
+      font-size: 30px;
     }
   }
 
